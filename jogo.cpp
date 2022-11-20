@@ -15,7 +15,11 @@ void instrucoes(){
 
 
 }
-
+void jogo(string nome_jogadorUm, string nome_jogadorDois, int pontuacao_jogadorUm, int pontuacao_jogadorDois){
+    char tabuleiro[3][3];
+    string nome_jogadorAtual;
+ 
+}
 int main(){
     setlocale(LC_ALL,"");
       
