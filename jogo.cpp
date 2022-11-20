@@ -18,6 +18,13 @@ void instrucoes(){
 void jogo(string nome_jogadorUm, string nome_jogadorDois, int pontuacao_jogadorUm, int pontuacao_jogadorDois){
     char tabuleiro[3][3];
     string nome_jogadorAtual;
+    int statusJogo =1;
+    int ponteiros; 
+    int linhaJogada,colunaJogada;
+    int selecionarJogada;
+    int rodada=1;
+    int opcao_r;
+    bool posicionouJogada;
  
 }
 int main(){
