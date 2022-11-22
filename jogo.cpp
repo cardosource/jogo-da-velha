@@ -5,6 +5,10 @@
 #include <locale.h>
 
 
+void limparTela(){
+    system("clear");
+}
+
 void instrucoes(){
     cout << "\n-Mapa de posições\n\n";
     cout << "7 | 8 | 9\n";
