@@ -3,7 +3,7 @@
 #include <string>
 #include <iostream>
 #include <locale.h>
-
+using namespace std;
 
 void limparTela(){
     system("clear");
