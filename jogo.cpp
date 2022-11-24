@@ -9,6 +9,16 @@ void limparTela(){
     system("clear");
 }
 
+void inicia_tabuleiro(char tabuleiro[3][3]){
+    int linha,coluna;
+    for(linha=0 ; linha <3; linha++){
+         for(coluna=0 ; coluna <3; coluna++){
+              tabuleiro[linha][coluna] = '-';
+     }
+   }
+}
+
+
 void instrucoes(){
     cout << "\n-Mapa de posições\n\n";
     cout << "7 | 8 | 9\n";
