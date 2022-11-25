@@ -18,6 +18,16 @@ void inicia_tabuleiro(char tabuleiro[3][3]){
    }
 }
 
+void exibe_tabuleiro(char tabuleiro[3][3]){
+    cout << "\n";
+    for(int linha=0 ; linha <3; linha++){
+         for(int coluna=0 ; coluna <3; coluna++){
+        cout << tabuleiro[linha][coluna];
+     }
+     cout << "\n";
+}
+
+}
 
 void instrucoes(){
     cout << "\n-Mapa de posições\n\n";
