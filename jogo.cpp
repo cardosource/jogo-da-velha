@@ -25,9 +25,9 @@ void exibe_tabuleiro(char tabuleiro[3][3]){
         cout << tabuleiro[linha][coluna];
      }
      cout << "\n";
+   }
 }
 
-}
 
 void instrucoes(){
     cout << "\n-Mapa de posições\n\n";
