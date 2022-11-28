@@ -28,6 +28,19 @@ void exibe_tabuleiro(char tabuleiro[3][3]){
    }
 }
 
+int conferiTabuleiro(char tabuleiro[3][3]){
+    int linha, coluna;
+
+for(linha=0; linha <3; linha++){
+    if(tabuleiro[linha][0] == 'x' &&  tabuleiro[linha][0] == tabuleiro[linha][1] &&  tabuleiro[linha][1] == tabuleiro[linha][2]){
+            return 1;
+            exibe_tabuleiro(tabuleiro);
+    }else if(tabuleiro[linha][0] == 'o' &&  tabuleiro[linha][0] == tabuleiro[linha][1] &&  tabuleiro[linha][1] == tabuleiro[linha][2]) {
+        return 2;
+        exibe_tabuleiro(tabuleiro);
+          }
+        }
+  
 
 void instrucoes(){
     cout << "\n-Mapa de posições\n\n";
