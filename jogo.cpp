@@ -40,7 +40,14 @@ for(linha=0; linha <3; linha++){
         exibe_tabuleiro(tabuleiro);
           }
         }
-  
+    
+  for(coluna=0; coluna <3; coluna++){
+     if(tabuleiro[0][coluna] == 'x' &&  tabuleiro[0][coluna] == tabuleiro[1][coluna] &&  tabuleiro[1][coluna] == tabuleiro[2][coluna]){
+            return 1;
+     }else if(tabuleiro[0][coluna] == 'x' &&  tabuleiro[0][coluna] == tabuleiro[1][coluna] &&  tabuleiro[1][coluna] == tabuleiro[2][coluna]) {
+          return 2;
+         }
+        }
 
 void instrucoes(){
     cout << "\n-Mapa de posições\n\n";
