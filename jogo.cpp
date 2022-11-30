@@ -48,7 +48,14 @@ for(linha=0; linha <3; linha++){
           return 2;
          }
         }
-
+    
+if(tabuleiro[0][0] != '-' && tabuleiro[0][0] == tabuleiro[1][1] && tabuleiro[2][2]){
+    if(tabuleiro[0][0] == 'x'){
+         return 1;
+     }else{
+          return 2;
+          }
+      }
 void instrucoes(){
     cout << "\n-Mapa de posições\n\n";
     cout << "7 | 8 | 9\n";
