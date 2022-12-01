@@ -56,6 +56,15 @@ if(tabuleiro[0][0] != '-' && tabuleiro[0][0] == tabuleiro[1][1] && tabuleiro[2][
           return 2;
           }
       }
+if(tabuleiro[0][2] != '-' && tabuleiro[0][2] == tabuleiro[1][1] && tabuleiro[2][0]){
+      if(tabuleiro[0][2] == 'x'){
+           return 1;
+       }else{
+            return 2;
+          }
+      }
+      return 0;
+}
 void instrucoes(){
     cout << "\n-Mapa de posições\n\n";
     cout << "7 | 8 | 9\n";
