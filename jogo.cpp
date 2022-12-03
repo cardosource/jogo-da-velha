@@ -86,6 +86,7 @@ void jogo(string nome_jogadorUm, string nome_jogadorDois, int pontuacao_jogadorU
     int opcao_r;
     bool posicionouJogada;
  
+      inicia_tabuleiro(tabuleiro);
 }
 int main(){
     setlocale(LC_ALL,"");
